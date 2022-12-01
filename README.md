@@ -9,6 +9,8 @@ code.extension('https://fhir.gevko.de/StructureDefinition/EVO_EX_HLM_Leitsymptom
 code.extension('https://fhir.gevko.de/StructureDefinition/EVO_EX_HLM_Leitsymptomatik').extension('leitsymptomatik').count()=1
 ```
 This constraint is defined in the file Resources/StructureDefinitions/dependencies/de.gevko.evo.hlm#1.2.0/package/EVO_PR_HLM_Condition_Diagnoseschluessel.json with key "Codes-Diagnosegruppe-1". The profile is also available on simplifier: https://simplifier.net/packages/de.gevko.evo.hlm/1.2.0/files/669999.
+
+The following Xml-part fails validation:
 ```
 <extension url="https://fhir.gevko.de/StructureDefinition/EVO_EX_HLM_Leitsymptomatik">
     <extension url="leitsymptomatik">
@@ -34,4 +36,5 @@ This constraint is defined in the file Resources/StructureDefinitions/dependenci
     </extension>
 </extension>
 ```
-They can be found by searching for "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik". So in my opinion, the constraint should be satisfied. The validation says it's not. 
+This part can be found in the example bundle by searching for "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik".
+In my opinion, the constraint should be satisfied. The validation says it's not. Interestingly, if only one extension "leitsymptomatik" is present, the validation succeeds.
