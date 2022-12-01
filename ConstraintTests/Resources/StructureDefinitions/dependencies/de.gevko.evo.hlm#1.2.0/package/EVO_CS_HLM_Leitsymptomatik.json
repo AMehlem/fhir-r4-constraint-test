@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik",
+  "version": "1.2",
+  "name": "EVO_CS_HLM_Leitsymptomatik",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-08-01",
+  "publisher": "gevko",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Angabe der buchstabencodierte verordnungsbegründende Leitsymptomatik/en nach Maßgabe des Heilmittelkataloges oder der patientenindividuellen Leitsymptomatik.",
+  "copyright": "gevko",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "a",
+      "display": "Leitsymptomatik a"
+    },
+    {
+      "code": "b",
+      "display": "Leitsymptomatik b"
+    },
+    {
+      "code": "c",
+      "display": "Leitsymptomatik c"
+    },
+    {
+      "code": "pi",
+      "display": "patientenindividuelle Leitsymptomatik"
+    }
+  ]
+}

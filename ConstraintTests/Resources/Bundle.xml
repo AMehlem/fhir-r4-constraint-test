@@ -1,0 +1,907 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="edecacb7-a5c4-486b-b6e9-6726b93f54b6"/>
+    <meta>
+        <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Bundle|1.2"/>
+    </meta>
+    <identifier>
+        <system value="https://gematik.de/fhir/NamingSystem/PrescriptionID"/>
+        <value value="6413570dd8ce4afa9f6e1234111a4cb8"/>
+    </identifier>
+    <type value="document"/>
+    <timestamp value="2022-11-12T09:24:49.901+02:00"/>
+    <entry>
+        <fullUrl value="urn:uuid:2a1576c4-52c0-4943-ad0e-f37aa0f19eac"/>
+        <resource>
+            <Composition xmlns="http://hl7.org/fhir">
+                <id value="2a1576c4-52c0-4943-ad0e-f37aa0f19eac"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Composition|1.2"/>
+                </meta>
+                <extension url="https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN"/>
+                        <code value="00"/>
+                    </valueCoding>
+                </extension>
+                <status value="final"/>
+                <type>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_FormularArt"/>
+                        <code value="e13"/>
+                    </coding>
+                </type>
+                <category>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Heilmittelbereich"/>
+                        <code value="ERNA"/>
+                        <display value="Ernährungstherapie"/>
+                    </coding>
+                </category>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <date value="2022-11-12T09:24:49+02:00"/>
+                <author>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                    <type value="Practitioner"/>
+                </author>
+                <author>
+                    <extension url="https://fhir.gevko.de/StructureDefinition/EVO_EX_PVS_Ver">
+                        <valueString value="2022.3"/>
+                    </extension>
+                    <type value="Device"/>
+                    <identifier>
+                        <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_FOR_Pruefnummer"/>
+                        <value value="kbv123456789"/>
+                    </identifier>
+                    <display value="Test AIS"/>
+                </author>
+                <title value="elektronische Heilmittelverordnung"/>
+                <custodian>
+                    <reference value="urn:uuid:3cd68682-77c3-4c9b-95ae-8a45626be7aa"/>
+                </custodian>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type"/>
+                            <code value="Coverage"/>
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:5d0014c7-edb6-4ee6-84eb-9c323acaeb97"/>
+                    </entry>
+                </section>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type"/>
+                            <code value="ICD"/>
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:9bd2fc54-eefa-4dd4-abce-6042ee9ecf32"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type"/>
+                                    <code value="ICD"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:bb167c6c-aa8d-4b92-9ea6-d786f32a4ddb"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type"/>
+                                    <code value="ICD"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:397acff6-51fd-4767-be9c-8b33772f0967"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type"/>
+                                    <code value="ICD_Text"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                </section>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type"/>
+                            <code value="Diagnoseschluessel"/>
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                    </entry>
+                </section>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                            <code value="HLM"/>
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:67ac942c-6612-4752-8ba5-7769df8e7a9c"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                                    <code value="HLM"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:e5eca716-ee69-4e80-8cd8-a434b3502052"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                                    <code value="HLM"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:57732df5-45b9-42a5-8c2d-e0d92042b3fa"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                                    <code value="HLM"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:aaa30771-329d-4278-9f48-6ce7eff39d1e"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                                    <code value="ergaenzendes_HLM"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:71f0c353-1410-42a7-874c-13be6705d4e0"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                                    <code value="Zusatzinfos"/>
+                                </coding>
+                            </type>
+                        </identifier>
+                    </entry>
+                </section>
+                <section>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type"/>
+                            <code value="Therapieziele"/>
+                        </coding>
+                    </code>
+                    <entry>
+                        <reference value="urn:uuid:0694978d-ea4e-4691-8b8b-ae618a2f80d3"/>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:cefed01a-ba08-48ff-bf88-6ff5a99a0c57"/>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:729facf4-b160-4b40-a863-05756c362407"/>
+                    </entry>
+                </section>
+            </Composition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+        <resource>
+            <Practitioner xmlns="http://hl7.org/fhir">
+                <id value="a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Practitioner|1.0.3"/>
+                </meta>
+                <identifier>
+                    <use value="official"/>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                            <code value="LANR"/>
+                        </coding>
+                    </type>
+                    <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_ANR"/>
+                    <value value="123456789"/>
+                </identifier>
+                <name>
+                    <use value="official"/>
+                    <family value="affix Meier suffix">
+                        <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
+                            <valueString value="suffix"/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
+                            <valueString value="affix"/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+                            <valueString value="Meier"/>
+                        </extension>
+                    </family>
+                    <given value="Hans"/>
+                    <prefix value="Prof.">
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier">
+                            <valueCode value="AC"/>
+                        </extension>
+                    </prefix>
+                </name>
+                <qualification>
+                    <code>
+                        <coding>
+                            <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Qualification_Type"/>
+                            <code value="00"/>
+                        </coding>
+                    </code>
+                </qualification>
+                <qualification>
+                    <code>
+                        <text value="Allgemeinmediziner"/>
+                    </code>
+                </qualification>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:3cd68682-77c3-4c9b-95ae-8a45626be7aa"/>
+        <resource>
+            <Organization xmlns="http://hl7.org/fhir">
+                <id value="3cd68682-77c3-4c9b-95ae-8a45626be7aa"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Organization|1.0.3"/>
+                </meta>
+                <identifier>
+                    <use value="official"/>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                            <code value="BSNR"/>
+                        </coding>
+                    </type>
+                    <system value="https://fhir.kbv.de/NamingSystem/KBV_NS_Base_BSNR"/>
+                    <value value="123456789"/>
+                </identifier>
+                <name value="die betriebsstätte"/>
+                <telecom>
+                    <system value="phone"/>
+                    <value value="012345/123456789"/>
+                </telecom>
+                <telecom>
+                    <system value="fax"/>
+                    <value value="012345/987654321"/>
+                </telecom>
+                <telecom>
+                    <system value="email"/>
+                    <value value="test@mail.de"/>
+                </telecom>
+                <address>
+                    <type value="both"/>
+                    <line value="Teststr. 2">
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+                            <valueString value="Teststr."/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+                            <valueString value="2"/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+                            <valueString value="oben"/>
+                        </extension>
+                    </line>
+                    <city value="Weißenthurm"/>
+                    <postalCode value="56575"/>
+                    <country value="D"/>
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+        <resource>
+            <Patient xmlns="http://hl7.org/fhir">
+                <id value="28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Patient|1.0.3"/>
+                </meta>
+                <identifier>
+                    <use value="official"/>
+                    <type>
+                        <coding>
+                            <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+                            <code value="GKV"/>
+                        </coding>
+                    </type>
+                    <system value="http://fhir.de/NamingSystem/gkv/kvid-10"/>
+                    <value value="S804954497"/>
+                </identifier>
+                <name>
+                    <use value="official"/>
+                    <family value="von Muster der II.">
+                        <extension url="http://fhir.de/StructureDefinition/humanname-namenszusatz">
+                            <valueString value="der II."/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-prefix">
+                            <valueString value="von"/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">
+                            <valueString value="Muster"/>
+                        </extension>
+                    </family>
+                    <given value="Peter"/>
+                    <prefix value="Prof.">
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier">
+                            <valueCode value="AC"/>
+                        </extension>
+                    </prefix>
+                </name>
+                <birthDate value="1996-04-05"/>
+                <address>
+                    <type value="both"/>
+                    <line value="Musterstr. 30">
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+                            <valueString value="Musterstr."/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+                            <valueString value="30"/>
+                        </extension>
+                        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+                            <valueString value="4. Etage"/>
+                        </extension>
+                    </line>
+                    <city value="Koblenz"/>
+                    <postalCode value="56070"/>
+                    <country value="D"/>
+                </address>
+            </Patient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:5d0014c7-edb6-4ee6-84eb-9c323acaeb97"/>
+        <resource>
+            <Coverage xmlns="http://hl7.org/fhir">
+                <id value="5d0014c7-edb6-4ee6-84eb-9c323acaeb97"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Coverage|1.0.3"/>
+                </meta>
+                <extension url="http://fhir.de/StructureDefinition/gkv/besondere-personengruppe">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_PERSONENGRUPPE"/>
+                        <code value="04"/>
+                    </valueCoding>
+                </extension>
+                <extension url="http://fhir.de/StructureDefinition/gkv/dmp-kennzeichen">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP"/>
+                        <code value="02"/>
+                    </valueCoding>
+                </extension>
+                <extension url="http://fhir.de/StructureDefinition/gkv/versichertenart">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_VERSICHERTENSTATUS"/>
+                        <code value="1"/>
+                    </valueCoding>
+                </extension>
+                <extension url="http://fhir.de/StructureDefinition/gkv/wop">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ITA_WOP"/>
+                        <code value="51"/>
+                    </valueCoding>
+                </extension>
+                <status value="active"/>
+                <type>
+                    <coding>
+                        <system value="http://fhir.de/CodeSystem/versicherungsart-de-basis"/>
+                        <code value="GKV"/>
+                    </coding>
+                </type>
+                <beneficiary>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </beneficiary>
+                <period>
+                    <end value="2025-03-17"/>
+                </period>
+                <payor>
+                    <identifier>
+                        <use value="official"/>
+                        <system value="http://fhir.de/NamingSystem/arge-ik/iknr"/>
+                        <value value="107299005"/>
+                    </identifier>
+                    <display value="meine krankenkasse"/>
+                </payor>
+            </Coverage>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+        <resource>
+            <Condition xmlns="http://hl7.org/fhir">
+                <id value="86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Condition_Diagnoseschluessel|1.2"/>
+                </meta>
+                <code>
+                    <extension url="https://fhir.gevko.de/StructureDefinition/EVO_EX_HLM_Leitsymptomatik">
+                        <extension url="leitsymptomatik">
+                            <valueCoding>
+                                <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik"/>
+                                <code value="c"/>
+                                <display value="Leitsymptomatik c"/>
+                            </valueCoding>
+                        </extension>
+                        <extension url="leitsymptomatik">
+                            <valueCoding>
+                                <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik"/>
+                                <code value="b"/>
+                                <display value="Leitsymptomatik b"/>
+                            </valueCoding>
+                        </extension>
+                        <extension url="leitsymptomatik">
+                            <valueCoding>
+                                <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik"/>
+                                <code value="a"/>
+                                <display value="Leitsymptomatik a"/>
+                            </valueCoding>
+                        </extension>
+                    </extension>
+                    <coding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_HM_DIAGNOSEGRUPPE"/>
+                        <version value="1.0.8"/>
+                        <code value="WS"/>
+                        <display value="Wirbelsäulenerkrankungen"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <asserter>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </asserter>
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:71f0c353-1410-42a7-874c-13be6705d4e0"/>
+        <resource>
+            <ServiceRequest xmlns="http://hl7.org/fhir">
+                <id value="71f0c353-1410-42a7-874c-13be6705d4e0"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Zusatzinfos|1.2"/>
+                </meta>
+                <extension url="https://fhir.gevko.de/StructureDefinition/EVO_EX_Ursache_Unfall_BVG">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Ursache_Type"/>
+                        <code value="3"/>
+                        <display value="Versorgungsleiden"/>
+                    </valueCoding>
+                </extension>
+                <extension url="https://fhir.gevko.de/StructureDefinition/EVO_EX_Zuzahlungsstatus">
+                    <valueCoding>
+                        <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_ERP_StatusCoPayment"/>
+                        <code value="1"/>
+                        <display value="von Zuzahlungspflicht befreit / gebührenfrei"/>
+                    </valueCoding>
+                </extension>
+                <status value="active"/>
+                <intent value="order"/>
+                <priority value="routine"/>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                        <code value="Zusatzinfos"/>
+                    </coding>
+                </code>
+                <orderDetail>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Therapiebericht"/>
+                        <code value="0"/>
+                        <display value="Therapiebericht - NEIN"/>
+                    </coding>
+                </orderDetail>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <occurrenceTiming>
+                    <repeat>
+                        <frequency value="2"/>
+                        <frequencyMax value="3"/>
+                        <period value="4.0"/>
+                        <periodMax value="6.0"/>
+                        <periodUnit value="wk"/>
+                    </repeat>
+                </occurrenceTiming>
+                <requester>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </requester>
+                <locationCode>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Hausbesuch"/>
+                        <code value="1"/>
+                        <display value="Hausbesuch - JA"/>
+                    </coding>
+                </locationCode>
+                <reasonReference>
+                    <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                </reasonReference>
+            </ServiceRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:9bd2fc54-eefa-4dd4-abce-6042ee9ecf32"/>
+        <resource>
+            <Condition xmlns="http://hl7.org/fhir">
+                <id value="9bd2fc54-eefa-4dd4-abce-6042ee9ecf32"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_ICD|1.0.2"/>
+                </meta>
+                <verificationStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+                        <code value="refuted"/>
+                    </coding>
+                </verificationStatus>
+                <code>
+                    <coding>
+                        <extension url="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit">
+                            <valueCoding>
+                                <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_DIAGNOSESICHERHEIT"/>
+                                <code value="A"/>
+                            </valueCoding>
+                        </extension>
+                        <extension url="http://fhir.de/StructureDefinition/seitenlokalisation">
+                            <valueCoding>
+                                <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION"/>
+                                <code value="L"/>
+                            </valueCoding>
+                        </extension>
+                        <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+                        <version value="2022"/>
+                        <code value="E20.0"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <asserter>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </asserter>
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:bb167c6c-aa8d-4b92-9ea6-d786f32a4ddb"/>
+        <resource>
+            <Condition xmlns="http://hl7.org/fhir">
+                <id value="bb167c6c-aa8d-4b92-9ea6-d786f32a4ddb"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_ICD|1.0.2"/>
+                </meta>
+                <clinicalStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                        <code value="active"/>
+                    </coding>
+                </clinicalStatus>
+                <verificationStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+                        <code value="confirmed"/>
+                    </coding>
+                </verificationStatus>
+                <code>
+                    <coding>
+                        <extension url="http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit">
+                            <valueCoding>
+                                <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_DIAGNOSESICHERHEIT"/>
+                                <code value="G"/>
+                            </valueCoding>
+                        </extension>
+                        <extension url="http://fhir.de/StructureDefinition/seitenlokalisation">
+                            <valueCoding>
+                                <system value="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION"/>
+                                <code value="B"/>
+                            </valueCoding>
+                        </extension>
+                        <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+                        <version value="2022"/>
+                        <code value="I10.0"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <asserter>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </asserter>
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:397acff6-51fd-4767-be9c-8b33772f0967"/>
+        <resource>
+            <Condition xmlns="http://hl7.org/fhir">
+                <id value="397acff6-51fd-4767-be9c-8b33772f0967"/>
+                <meta>
+                    <profile value="https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_Text|1.0.2"/>
+                </meta>
+                <verificationStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+                        <code value="confirmed"/>
+                    </coding>
+                </verificationStatus>
+                <code>
+                    <text value="Diagnosis text"/>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <asserter>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </asserter>
+            </Condition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:67ac942c-6612-4752-8ba5-7769df8e7a9c"/>
+        <resource>
+            <ServiceRequest xmlns="http://hl7.org/fhir">
+                <id value="67ac942c-6612-4752-8ba5-7769df8e7a9c"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_ServiceRequest|1.2"/>
+                </meta>
+                <status value="active"/>
+                <intent value="order"/>
+                <category>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                        <code value="HLM"/>
+                        <display value="Heilmittel"/>
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog"/>
+                        <version value="1.2"/>
+                        <code value="HLM-057"/>
+                        <display value="Nagelspangenbehandlung"/>
+                    </coding>
+                </code>
+                <quantityQuantity>
+                    <value value="3.0"/>
+                    <system value="http://unitsofmeasure.org"/>
+                    <code value="{count}"/>
+                </quantityQuantity>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <requester>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </requester>
+                <reasonReference>
+                    <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                </reasonReference>
+            </ServiceRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:e5eca716-ee69-4e80-8cd8-a434b3502052"/>
+        <resource>
+            <ServiceRequest xmlns="http://hl7.org/fhir">
+                <id value="e5eca716-ee69-4e80-8cd8-a434b3502052"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_ServiceRequest|1.2"/>
+                </meta>
+                <status value="active"/>
+                <intent value="order"/>
+                <category>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                        <code value="HLM"/>
+                        <display value="Heilmittel"/>
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog"/>
+                        <version value="1.2"/>
+                        <display value="UWM"/>
+                    </coding>
+                </code>
+                <quantityQuantity>
+                    <value value="2.0"/>
+                    <system value="http://unitsofmeasure.org"/>
+                    <code value="{count}"/>
+                </quantityQuantity>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <requester>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </requester>
+                <reasonReference>
+                    <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                </reasonReference>
+            </ServiceRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:57732df5-45b9-42a5-8c2d-e0d92042b3fa"/>
+        <resource>
+            <ServiceRequest xmlns="http://hl7.org/fhir">
+                <id value="57732df5-45b9-42a5-8c2d-e0d92042b3fa"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_ServiceRequest|1.2"/>
+                </meta>
+                <status value="active"/>
+                <intent value="order"/>
+                <category>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                        <code value="HLM"/>
+                        <display value="Heilmittel"/>
+                    </coding>
+                    <text value="Heilmittel nach Maßgabe des Kataloges"/>
+                </category>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog"/>
+                        <version value="1.2"/>
+                        <display value="Ernährungstherapie"/>
+                    </coding>
+                </code>
+                <quantityQuantity>
+                    <value value="1.0"/>
+                    <system value="http://unitsofmeasure.org"/>
+                    <code value="{count}"/>
+                </quantityQuantity>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <requester>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </requester>
+                <reasonReference>
+                    <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                </reasonReference>
+            </ServiceRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:aaa30771-329d-4278-9f48-6ce7eff39d1e"/>
+        <resource>
+            <ServiceRequest xmlns="http://hl7.org/fhir">
+                <id value="aaa30771-329d-4278-9f48-6ce7eff39d1e"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_ServiceRequest|1.2"/>
+                </meta>
+                <status value="active"/>
+                <intent value="order"/>
+                <category>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type"/>
+                        <code value="ergaenzendes_HLM"/>
+                        <display value="Ergänzendes Heilmittel"/>
+                    </coding>
+                    <text value="Heilmittel nach Maßgabe des Kataloges"/>
+                </category>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog"/>
+                        <version value="1.2"/>
+                        <display value="KG-ZNS (PNF)"/>
+                    </coding>
+                </code>
+                <quantityQuantity>
+                    <value value="1.0"/>
+                    <system value="http://unitsofmeasure.org"/>
+                    <code value="{count}"/>
+                </quantityQuantity>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <requester>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </requester>
+                <reasonReference>
+                    <reference value="urn:uuid:86df61c2-f193-4010-a8c2-c5efca8cf2be"/>
+                </reasonReference>
+            </ServiceRequest>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:0694978d-ea4e-4691-8b8b-ae618a2f80d3"/>
+        <resource>
+            <Observation xmlns="http://hl7.org/fhir">
+                <id value="0694978d-ea4e-4691-8b8b-ae618a2f80d3"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_FOR_Hinweise_Freitext|1.0.0"/>
+                </meta>
+                <status value="final"/>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type"/>
+                        <code value="Therapieziele"/>
+                        <display value="Therapieziele"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <performer>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </performer>
+                <valueString value="observationText 3"/>
+            </Observation>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:cefed01a-ba08-48ff-bf88-6ff5a99a0c57"/>
+        <resource>
+            <Observation xmlns="http://hl7.org/fhir">
+                <id value="cefed01a-ba08-48ff-bf88-6ff5a99a0c57"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_FOR_Hinweise_Freitext|1.0.0"/>
+                </meta>
+                <status value="final"/>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type"/>
+                        <code value="Therapieziele"/>
+                        <display value="Therapieziele"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <performer>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </performer>
+                <valueString value="observationText 2"/>
+            </Observation>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:729facf4-b160-4b40-a863-05756c362407"/>
+        <resource>
+            <Observation xmlns="http://hl7.org/fhir">
+                <id value="729facf4-b160-4b40-a863-05756c362407"/>
+                <meta>
+                    <profile value="https://fhir.gevko.de/StructureDefinition/EVO_PR_FOR_Hinweise_Freitext|1.0.0"/>
+                </meta>
+                <status value="final"/>
+                <code>
+                    <coding>
+                        <system value="https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type"/>
+                        <code value="Therapieziele"/>
+                        <display value="Therapieziele"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:28e81b5c-ef0c-4077-802f-688b524b8c03"/>
+                </subject>
+                <performer>
+                    <reference value="urn:uuid:a13426cb-a38d-4c20-903d-7276cf08da81"/>
+                </performer>
+                <valueString value="observationText 1"/>
+            </Observation>
+        </resource>
+    </entry>
+</Bundle>

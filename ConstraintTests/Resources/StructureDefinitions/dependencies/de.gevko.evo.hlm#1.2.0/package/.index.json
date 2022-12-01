@@ -1,0 +1,866 @@
+{
+  "date": "2022-10-11T14:00:33.7411552+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "eHeilmittelverordnung.json",
+      "resourceType": "ImplementationGuide",
+      "id": null,
+      "url": "https://simplifier.net/guide/eheilmittelverordnung",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": "4.0.0"
+    },
+    {
+      "filename": "EVO_CS_Belegarztbehandlung.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_Belegarztbehandlung",
+      "version": "0.9.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_FOR_FormularArt.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_FormularArt",
+      "version": "1.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_FOR_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type",
+      "version": "1.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Hausbesuch.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Hausbesuch",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Heilmittelbereich.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Heilmittelbereich",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Katalog.json",
+      "resourceType": "CodeSystem",
+      "id": "EVO-CS-HLM-Katalog",
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Leitsymptomatik.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Leitsymptomatik",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_HLM_Therapiebericht.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Therapiebericht",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KB_Befoerderungsausstattung.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsausstattung",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KB_Befoerderungsgrund.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsgrund",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KB_Befoerderungsmittel.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsmittel",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KB_Fahrt.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Fahrt",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KB_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Section_Type",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_KHB_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KHB_Section_Type",
+      "version": "0.9.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_CS_Status_tHENA.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_Status_tHENA",
+      "version": "1.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_EX_Begruendung_Sonstiges_Freitext.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_Begruendung_Sonstiges_Freitext",
+      "version": "0.9.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_FOR_OperationOutcome_Issue_Identifier.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-EX-Operationoutcome-issue-Identifier",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_Operationoutcome_issue_Identifier",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_HFM_Begruendung.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-EX-HFM-Begruendung",
+      "url": "http://fhir.gevko.de/StructureDefinition/EVO_EX_HFM_Begruendung.xml",
+      "version": "0.9",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_HFM_Hinweise.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-EX-HFM-Hinweise",
+      "url": "http://fhir.gevko.de/StructureDefinition/EVO_EX_HFM_Hinweise.xml",
+      "version": "0.9",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_HLM_Leitsymptomatik.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_HLM_Leitsymptomatik",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_KB_Begruendung_KTW.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_KB_Begruendung_KTW",
+      "version": "0.9.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_KHB_B_BisherigeMassnahmen.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_KHB_B_BisherigeMassnahmen",
+      "version": "0.9.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_PVS_Ver.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-EX-PVS-Ver",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_PVS_Ver",
+      "version": null,
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_Ursache.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_Ursache",
+      "version": "0.9.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_Ursache_Unfall_BVG.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_Ursache_Unfall_BVG",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_EX_Zuzahlungsstatus.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_EX_Zuzahlungsstatus",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_FOR_Hinweise_Freitext.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_FOR_Hinweise_Freitext",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_FOR_OperationOutcome.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-PR-OperationOutcome",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_OperationOutcome",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "OperationOutcome",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_FOR_Storno.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_FOR_Storno",
+      "version": "1.0.0",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HFM_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-PR-HFM-Bundle",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HFM_Bundle",
+      "version": "0.9",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HFM_Hilfsmittel.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-PR-HFM-Hilfsmittel",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HFM_Hilfsmittel",
+      "version": "0.9",
+      "kind": "resource",
+      "type": "SupplyRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HFM_Hilfsmittelverordnung.json",
+      "resourceType": "StructureDefinition",
+      "id": "EVO-PR-HFM-Composition",
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HFM_Composition",
+      "version": "0.9",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HLM_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Bundle",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HLM_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Composition",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HLM_Condition_Diagnoseschluessel.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Condition_Diagnoseschluessel",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HLM_ServiceRequest.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_ServiceRequest",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "ServiceRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_HLM_Zusatzinfos.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_HLM_Zusatzinfos",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "ServiceRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KB_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KB_Bundle",
+      "version": "0.9.0",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KB_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KB_Composition",
+      "version": "0.9.0",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KB_ServiceRequest.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KB_ServiceRequest",
+      "version": "0.9.0",
+      "kind": "resource",
+      "type": "ServiceRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_A_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_A_Composition",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_Bundle",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_BefundeFreitext.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_BefundeFreitext",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_Composition",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_DiagnosticReport.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_DiagnosticReport",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "DiagnosticReport",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_DiagnosticReport_Befunde.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_DiagnosticReport_Befunde",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "DiagnosticReport",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_Observation.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_Observation",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_Procedure.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_Procedure",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Procedure",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_B_UntersuchungsergebnisseFreitext.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_B_UntersuchungsergebnisseFreitext",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_Location_Krankenhaus.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_Location_Krankenhaus",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "Location",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_PR_KHB_ServiceRequest.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.gevko.de/StructureDefinition/EVO_PR_KHB_ServiceRequest",
+      "version": "0.9.1",
+      "kind": "resource",
+      "type": "ServiceRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "EVO_VS_Belegarztbehandlung.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_Belegarztbehandlung",
+      "version": "0.9.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_ergaenzendesHLM.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_ergaenzendesHLM",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_Hausbesuch.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_Hausbesuch",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_Heilmittelbereich.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_Heilmittelbereich",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_Katalog.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_Katalog",
+      "version": "1.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_Leitsymptomatik.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_Leitsymptomatik",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_HLM_Therapiebericht.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_HLM_Therapiebericht",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_KB_Befoerderungsausstattung.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_KB_Befoerderungsausstattung",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_KB_Befoerderungsgrund.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_KB_Befoerderungsgrund",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_KB_Befoerderungsmittel.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_KB_Befoerderungsmittel",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_KB_Fahrt.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_KB_Fahrt",
+      "version": "0.9.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_Ursache_Type_Unfall_BVG.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_Ursache_Type_Unfall_BVG",
+      "version": "1.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "EVO_VS_Zuzahlungsstatus.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.gevko.de/ValueSet/EVO_VS_Zuzahlungsstatus",
+      "version": "1.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "igekrankenhausbehandlung.json",
+      "resourceType": "ImplementationGuide",
+      "id": null,
+      "url": "https://simplifier.net/guide/ekrankenhausbehandlung",
+      "version": "0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": "4.0.0"
+    },
+    {
+      "filename": "igkrankenbefrderung.json",
+      "resourceType": "ImplementationGuide",
+      "id": null,
+      "url": "https://simplifier.net/guide/ekrankenbefoerderung",
+      "version": "0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": "4.0.0"
+    },
+    {
+      "filename": "KBV_CS_SFHIR_HM_DIAGNOSEGRUPPE.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_HM_DIAGNOSEGRUPPE",
+      "version": "1.07",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_ICD_DIAGNOSESICHERHEIT.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_DIAGNOSESICHERHEIT",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_ICD_SEITENLOKALISATION.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ICD_SEITENLOKALISATION",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_ITA_WOP.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_ITA_WOP",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_DMP.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DMP",
+      "version": "1.05",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_PERSONENGRUPPE.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_PERSONENGRUPPE",
+      "version": "1.02",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN",
+      "version": "1.01",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_VERSICHERTENSTATUS.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_VERSICHERTENSTATUS",
+      "version": "1.02",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_VDX_PRAXISTYP.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_VDX_PRAXISTYP",
+      "version": "1.08",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_EAU_Ursache_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_EAU_Ursache_Type",
+      "version": "1.00.000",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_HM_DIAGNOSEGRUPPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_HM_DIAGNOSEGRUPPE",
+      "version": "1.07",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_ICD_SEITENLOKALISATION.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_ITA_WOP.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ITA_WOP",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_DMP.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_DMP",
+      "version": "1.05",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_PERSONENGRUPPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_PERSONENGRUPPE",
+      "version": "1.02",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_STATUSKENNZEICHEN.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_STATUSKENNZEICHEN",
+      "version": "1.01",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_VERSICHERTENSTATUS.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_VERSICHERTENSTATUS",
+      "version": "1.02",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

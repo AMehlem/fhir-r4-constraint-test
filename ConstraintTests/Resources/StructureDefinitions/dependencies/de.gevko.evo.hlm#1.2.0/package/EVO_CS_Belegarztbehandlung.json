@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_Belegarztbehandlung",
+  "version": "0.9.1",
+  "name": "EVO_CS_Belegarztbehandlung",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-07-01T07:25:06.9291983+00:00",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Belegarztbehandlung Ja/Nein",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "keine Belegarztbehandlung"
+    },
+    {
+      "code": "1",
+      "display": "Belegarztbehandlung"
+    }
+  ]
+}

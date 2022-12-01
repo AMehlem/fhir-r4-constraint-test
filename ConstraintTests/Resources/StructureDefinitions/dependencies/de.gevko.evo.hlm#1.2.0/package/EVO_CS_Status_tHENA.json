@@ -1,0 +1,69 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_Status_tHENA",
+  "version": "1.0.0",
+  "name": "EVO_CS_Status_tHENA",
+  "status": "active",
+  "date": "2022-05-02",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Dieses Codesystem definiert tHENAs Rückgabecodes",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "P0001",
+      "display": "Auftrag erfolgreich abgeschlossen."
+    },
+    {
+      "code": "P1001",
+      "display": "Korrekturanfrage zu elektronischer Verordnung."
+    },
+    {
+      "code": "N0001",
+      "display": "Auftrag konnte wegen technischer Fehler nicht erfolgreich abgeschlossen werden."
+    },
+    {
+      "code": "N0002",
+      "display": "Authentifizierung fehlgeschlagen."
+    },
+    {
+      "code": "N0003",
+      "display": "Patient wurde nicht gefunden."
+    },
+    {
+      "code": "N0004",
+      "display": "Patient ist kein Teilnehmer."
+    },
+    {
+      "code": "N0005",
+      "display": "Einwilligungserklärung des Patienten fehlt."
+    },
+    {
+      "code": "N0006",
+      "display": "Zu dem angeforderten Dokument liegt eine neue Version vor."
+    },
+    {
+      "code": "N0007",
+      "display": "Teilnahmeerklärung des Patienten fehlt."
+    },
+    {
+      "code": "N0008",
+      "display": "Bei der Validierung der empfangenen Daten wurden Fehler festgestellt"
+    },
+    {
+      "code": "N0009",
+      "display": "Allgemeiner Prozessfehler"
+    }
+  ]
+}

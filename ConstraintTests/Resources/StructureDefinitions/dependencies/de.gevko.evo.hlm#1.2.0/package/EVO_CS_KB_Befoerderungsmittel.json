@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsmittel",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.276.0.76.3.1.135.8.11.13"
+    }
+  ],
+  "version": "0.9.0",
+  "name": "EVO_CS_KB_Befoerderungsmittel",
+  "status": "active",
+  "date": "2020-06-10",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Das Mittel der Beförderung.",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "TAXI",
+      "display": "Taxi, Mietwagen"
+    },
+    {
+      "code": "KTW",
+      "display": "Krankentransportwagen"
+    },
+    {
+      "code": "RTW",
+      "display": "Rettungswagen"
+    },
+    {
+      "code": "NAW",
+      "display": "Notarztwagen"
+    },
+    {
+      "code": "ANDERE",
+      "display": "andere"
+    }
+  ]
+}

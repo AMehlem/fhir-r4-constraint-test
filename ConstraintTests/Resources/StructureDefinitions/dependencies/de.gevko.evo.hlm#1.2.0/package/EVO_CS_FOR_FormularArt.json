@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_FormularArt",
+  "version": "1.0.0",
+  "name": "EVO_CS_FOR_FormularArt",
+  "status": "active",
+  "date": "2020-10-02",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Dieses Codesystem definiert die aktuell gestatteten digitalen Vordrucke im Format FHIR",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "e02A",
+      "display": "eKHB Ausfertigung für die Krankenkasse"
+    },
+    {
+      "code": "e02B",
+      "display": "eKHB Ausfertigung für den Krankenhausarzt"
+    },
+    {
+      "code": "e02C",
+      "display": "eKHB Ausfertigung für den überweisenden Arzt"
+    },
+    {
+      "code": "e04",
+      "display": "eKB elektronische Verordnung einer Krankenbeförderung"
+    },
+    {
+      "code": "e13",
+      "display": "eHLM elektronische Heilmittelverordnung"
+    }
+  ]
+}

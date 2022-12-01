@@ -1,0 +1,11 @@
+{
+  "updated": "2022-10-11T14:01:09.1535039+02:00",
+  "dependencies": {
+    "de.basisprofil.r4": "0.9.13",
+    "hl7.fhir.r4.core": "4.0.1",
+    "KBV.ITA.ERP": "1.0.1",
+    "KBV.Basis": "1.1.3",
+    "KBV.ITA.FOR": "1.0.3"
+  },
+  "missing": {}
+}

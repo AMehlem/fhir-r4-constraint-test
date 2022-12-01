@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsgrund",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.276.0.76.3.1.135.8.11.24"
+    }
+  ],
+  "version": "0.9.0",
+  "name": "EVO_CS_KB_Befoerderungsgrund",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-06-10T13:54:37.7362218+00:00",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Grund der Beförderung.",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "A1",
+      "display": "Voll-/Teilstationäre Krankenhausbehandlung"
+    },
+    {
+      "code": "A2",
+      "display": "Vor-/Nachstationäre Krankenhausbehandlung"
+    },
+    {
+      "code": "B",
+      "display": "Ambulante Behandlung"
+    },
+    {
+      "code": "C",
+      "display": "Anderer Grund"
+    },
+    {
+      "code": "D1",
+      "display": "Hochfrequente Behandlung - Dialyse, onkol. Chemo- oder Strahlentherapie"
+    },
+    {
+      "code": "D2",
+      "display": "Hochfrequente Behandlung - vergleichbarer Ausnahmefall"
+    },
+    {
+      "code": "E",
+      "display": "Dauerhafte Mobilitätsbeeinträchtigung"
+    },
+    {
+      "code": "F",
+      "display": "Anderer Grund, der Fahrt mit KTW erfordert"
+    }
+  ]
+}

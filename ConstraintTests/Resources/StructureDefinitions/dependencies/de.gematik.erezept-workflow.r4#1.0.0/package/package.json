@@ -1,0 +1,16 @@
+{
+  "name": "de.gematik.erezept-workflow.r4",
+  "version": "1.0.0",
+  "description": "ePrescription workflow specification.\r\nRessources for ePrescription workflow based on ePrescription-ressources made by KBV\r\nRequirements-Ressources included as up to gematik specification relelease R4.0.2\r\nValidated samples\r\n\r\nAccording to previous Package 0.9.1 minor fixes on Canonical notation, KBV dependency and cardinality with some attributes in Receipt-Bundle.",
+  "author": "gematik",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "devDependencies": null,
+  "canonicals": null,
+  "dependencies": {
+    "de.basisprofil.r4": "0.9.13",
+    "KBV.ITA.ERP": "1.0.1",
+    "hl7.fhir.r4.core": "4.0.1"
+  }
+}

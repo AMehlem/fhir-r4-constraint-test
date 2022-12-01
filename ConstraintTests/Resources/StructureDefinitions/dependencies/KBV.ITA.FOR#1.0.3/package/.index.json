@@ -1,0 +1,146 @@
+{
+  "date": "2022-10-11T14:00:40.0090759+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "KBV_CS_FOR_Payor_Type_KBV.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Payor_Type_KBV",
+      "version": "1.0.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_FOR_Qualification_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Qualification_Type",
+      "version": "1.0.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_FOR_Ursache_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Ursache_Type",
+      "version": "1.0.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_EX_FOR_Alternative_IK.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Alternative_IK",
+      "version": "1.0.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_FOR_Legal_basis.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis",
+      "version": "1.0.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_FOR_PKV_Tariff.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_PKV_Tariff",
+      "version": "1.0.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_NS_FOR_Pruefnummer.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_PR_FOR_Coverage.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Coverage",
+      "version": "1.0.3",
+      "kind": "resource",
+      "type": "Coverage",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_FOR_Organization.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Organization",
+      "version": "1.0.3",
+      "kind": "resource",
+      "type": "Organization",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_FOR_Patient.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Patient",
+      "version": "1.0.3",
+      "kind": "resource",
+      "type": "Patient",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_FOR_Practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Practitioner",
+      "version": "1.0.3",
+      "kind": "resource",
+      "type": "Practitioner",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_FOR_PractitionerRole.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_PractitionerRole",
+      "version": "1.0.3",
+      "kind": "resource",
+      "type": "PractitionerRole",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_VS_FOR_Payor_type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_FOR_Payor_type",
+      "version": "1.0.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_FOR_Qualification_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_FOR_Qualification_Type",
+      "version": "1.0.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_FOR_Section_Type",
+  "version": "1.0.0",
+  "name": "EVO_CS_FOR_Section_Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-04-20",
+  "publisher": "gevko",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Verordnungsübergreifende Abbildung von Slices in der Section der Composition",
+  "copyright": "gevko",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "Befunde",
+      "display": "Mitgegebene Befunde"
+    },
+    {
+      "code": "Befunde_Freitext",
+      "display": "Mitgegebene Befunde Freitext"
+    },
+    {
+      "code": "Diagnose",
+      "display": "Diagnose"
+    },
+    {
+      "code": "Diagnoseschluessel",
+      "display": "Diagnoseschlüssel"
+    },
+    {
+      "code": "Hausbesuch",
+      "display": "Hausbesuch"
+    },
+    {
+      "code": "Hinweise",
+      "display": "Fragestellung/Hinweise"
+    },
+    {
+      "code": "Leitsymptomatik",
+      "display": "Leitsymptomatik gemäß Heilmittelkatalog"
+    },
+    {
+      "code": "Massnahmen",
+      "display": "Bisherige Maßnahmen"
+    },
+    {
+      "code": "Therapiebericht",
+      "display": "Therapiebericht"
+    },
+    {
+      "code": "Therapiefrequenz",
+      "display": "Therapiefrequenz"
+    },
+    {
+      "code": "Therapieziele",
+      "display": "Therapieziele"
+    },
+    {
+      "code": "Untersuchungsergebnisse",
+      "display": "Untersuchungsergebnisse"
+    },
+    {
+      "code": "Untersuchungsergebnisse_Freitext",
+      "display": "Untersuchungsergebnisse Freitext"
+    },
+    {
+      "code": "Ursache",
+      "display": "Ursache (Unfall oder Versorgungsleiden)"
+    },
+    {
+      "code": "Zuzahlung",
+      "display": "Zuzahlungsstatus"
+    }
+  ]
+}

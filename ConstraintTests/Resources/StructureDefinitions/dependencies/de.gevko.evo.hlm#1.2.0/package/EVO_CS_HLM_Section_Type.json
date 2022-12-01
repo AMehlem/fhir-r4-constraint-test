@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Section_Type",
+  "version": "1.2",
+  "name": "EVO_CS_HLM_Section_Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-08-01",
+  "publisher": "gevko",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Abbildung der Slice in der Section der Composition",
+  "copyright": "gevko",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "Zusatzinfos",
+      "display": "Zusatzinfos Heilmittel"
+    },
+    {
+      "code": "HLM",
+      "display": "Heilmittel"
+    },
+    {
+      "code": "ergaenzendes_HLM",
+      "display": "Ergänzendes Heilmittel"
+    },
+    {
+      "code": "Behandlungsbedarf",
+      "display": "Dringlicher Behandlungsbedarf innerhalb von 14 Tagen"
+    }
+  ]
+}

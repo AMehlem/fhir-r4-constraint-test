@@ -1,0 +1,466 @@
+{
+  "date": "2022-10-11T14:00:39.3104965+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "abortOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/AbortOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "acceptOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/AcceptOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "activateOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/ActivateOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "AvailabilityStateExtension.StructureDefinition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/AvailabilityStateExtension",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "BeneficiaryExtension.StructureDefinition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/BeneficiaryExtension",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "closeOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/CloseOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-availabilityStatus.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://gematik.de/fhir/CodeSystem/AvailabilityStatus",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-documentType.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://gematik.de/fhir/CodeSystem/Documenttype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-flowType.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://gematik.de/fhir/CodeSystem/Flowtype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CourierService.StructureDefinition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/CourierService",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "createOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/CreateOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "true",
+      "fhirVersion": null
+    },
+    {
+      "filename": "erxDevice.StructureDefinition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxDevice",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Device",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVEXERPDosageFlag.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_DosageFlag",
+      "version": "1.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "NamingSystem-accesscode.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "NamingSystem-PRESCRIPTIONID.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "NamingSystem-secret.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "NamingSystem-telematikID.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "PaymentMethod.StructureDefinition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/PaymentMethod",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "rejectOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": null,
+      "url": "http://gematik.de/fhir/OperationDefinition/RejectOperationDefinition",
+      "version": "1.0.1",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-AuditEvent-ErxAuditEvent.json",
+      "resourceType": "StructureDefinition",
+      "id": "80871938-1322-47ae-a4c4-ac080a170c73",
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxAuditEvent",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "AuditEvent",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Binary.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxBinary",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Binary",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Bundle-GemErxBundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "8e46a4b1-767b-4e8b-9032-454c4e94f8b6",
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxReceipt",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Communication-erxCommunicationDispReq.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxCommunicationDispReq",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Communication-erxCommunicationInfoReq.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxCommunicationInfoReq",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Communication-erxCommunicationReply.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxCommunicationReply",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Communication-erxCommunicationRepresentative.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxCommunicationRepresentative",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Composition-GemErxComposition2.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxComposition",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-AcceptDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "594de19b-6426-457f-8c90-90b9e64ea582",
+      "url": "https://gematik.de/fhir/StructureDefinition/AcceptDate",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-ExpiryDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "cff3d9c9-12a8-4d45-beb0-3edbd253e683",
+      "url": "https://gematik.de/fhir/StructureDefinition/ExpiryDate",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-InsuranceProvider.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/InsuranceProvider",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-PackageQuanity.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/PackageQuanity",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-PrescriptionType.json",
+      "resourceType": "StructureDefinition",
+      "id": "06b8f9bb-cd9a-42c1-8909-bcc2f9947476",
+      "url": "https://gematik.de/fhir/StructureDefinition/PrescriptionType",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-SubstitutionAllowedType.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/SubstitutionAllowedType",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Extension-SupplyOptionsType.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/SupplyOptionsType",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Identifier-PRESCRIPTIONID.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxPrescriptionID",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Identifier",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Identifier-TELEMATIKID.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/BaseTelematikID",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Identifier",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-MedicationDispense-ERxMedicationDispense.json",
+      "resourceType": "StructureDefinition",
+      "id": "40bff92a-2fec-448f-9b1c-6aec203a4053",
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxMedicationDispense",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "MedicationDispense",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Organization-ERxOrganization.json",
+      "resourceType": "StructureDefinition",
+      "id": "98685c6b-5513-41a6-97d3-d52d669b3cdf",
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxOrganization",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Organization",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Parameters-erxAcceptOperationOutParameters.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxAcceptOperationOutParameters",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Parameters",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Signature-ErxSignature.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxSignature",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Signature",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-Task-ERxTask.json",
+      "resourceType": "StructureDefinition",
+      "id": "4b61a23f-f8d8-45d2-9131-a5726494c3a2",
+      "url": "https://gematik.de/fhir/StructureDefinition/ErxTask",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Task",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-AVAILABILITYSTATUS.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://gematik.de/fhir/ValueSet/AvailabilityStatus",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-DOCUMENTTYPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://gematik.de/fhir/ValueSet/Documenttype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-FLOWTYPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://gematik.de/fhir/ValueSet/Flowtype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-ORGANIZATIONTYPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://gematik.de/fhir/ValueSet/Organizationtype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-PERFORMERTYPE.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://gematik.de/fhir/ValueSet/Performertype",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

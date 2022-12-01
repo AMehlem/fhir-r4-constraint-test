@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Heilmittelbereich",
+  "version": "1.2",
+  "name": "EVO_CS_HLM_Heilmittelbereich",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-08-01",
+  "publisher": "gevko",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Angabe, um welchen Heilmittelbereich es sich in der Heilmittelverordnung handelt.",
+  "copyright": "gevko",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PHYS",
+      "display": "Physiotherapie"
+    },
+    {
+      "code": "PODO",
+      "display": "Podologische Therapie"
+    },
+    {
+      "code": "STIM",
+      "display": "Stimm-, Sprech-, Sprach- und Schlucktherapie"
+    },
+    {
+      "code": "ERGO",
+      "display": "Ergotherapie"
+    },
+    {
+      "code": "ERNA",
+      "display": "Ernährungstherapie"
+    }
+  ]
+}

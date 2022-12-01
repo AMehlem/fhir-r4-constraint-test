@@ -1,0 +1,226 @@
+{
+  "date": "2022-10-11T14:00:41.1615123+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "KBV_CS_EAU_AU_Error_Kasse.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_EAU_AU_Error_Kasse",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_EAU_AU_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_EAU_AU_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_EAU_Identifier_types.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_EAU_Identifier_types",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_EAU_WeitereSchritte_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_EAU_WeitereSchritte_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_FOR_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_FOR_Section_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_EX_EAU_7_weeks.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_EAU_7_weeks",
+      "version": "1.0.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_EAU_health_insurance_Practitioner_Identifier.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_EAU_health_insurance_Practitioner_Identifier",
+      "version": "1.0.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_NS_EAU_Message_ID_KIM.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_PR_EAU_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Bundle",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Composition",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Condition_AU.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_AU",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Condition_ICD.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_ICD",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Condition_Text.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Condition_Text",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_health_insurance_Practitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_health_insurance_Practitioner",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "OperationOutcome",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_ServiceRequest_steps.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_ServiceRequest_steps",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "ServiceRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Storno.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Storno",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "List",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Storno_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Storno_Bundle",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_EAU_Storno_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_EAU_Storno_Composition",
+      "version": "1.0.2",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_VS_EAU_AU_Error_Kasse.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_EAU_AU_Error_Kasse",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_EAU_AU_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_EAU_AU_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_EAU_Ursache_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_EAU_Ursache_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_EAU_WeitereSchritte_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_EAU_WeitereSchritte_Type",
+      "version": "1.0.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

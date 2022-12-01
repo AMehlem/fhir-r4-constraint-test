@@ -1,0 +1,430 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "EVO-CS-HLM-Katalog",
+    "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_HLM_Katalog",
+    "version": "1.2",
+    "name": "EVO_CS_HLM_Katalog",
+    "status": "active",
+    "experimental": false,
+    "date": "2022-08-01",
+    "publisher": "gevko GmbH",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://www.gevko.de"
+                }
+            ]
+        }
+    ],
+    "description": "Heilmittelkatalog",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+        {
+            "code": "HLM-001",
+            "display": "KG"
+        },
+        {
+            "code": "HLM-002",
+            "display": "KG Gruppe"
+        },
+        {
+            "code": "HLM-003",
+            "display": "KG im Bewegungsbad"
+        },
+        {
+            "code": "HLM-004",
+            "display": "KG im Bewegungsbad Gruppe"
+        },
+        {
+            "code": "HLM-005",
+            "display": "KG-Gerät"
+        },
+        {
+            "code": "HLM-006",
+            "display": "KMT"
+        },
+        {
+            "code": "HLM-007",
+            "display": "Übungsbehandlung"
+        },
+        {
+            "code": "HLM-008",
+            "display": "Übungsbehandlung Gruppe"
+        },
+        {
+            "code": "HLM-009",
+            "display": "Übungsbehandlung im Bewegungsbad"
+        },
+        {
+            "code": "HLM-010",
+            "display": "Übungsbehandlung im Bewegungsbad Gruppe"
+        },
+        {
+            "code": "HLM-011",
+            "display": "UWM"
+        },
+        {
+            "code": "HLM-012",
+            "display": "SM"
+        },
+        {
+            "code": "HLM-013",
+            "display": "PM"
+        },
+        {
+            "code": "HLM-014",
+            "display": "BGM"
+        },
+        {
+            "code": "HLM-015",
+            "display": "Wärmetherapie"
+        },
+        {
+            "code": "HLM-016",
+            "display": "Wärmetherapie mittels heiße Rolle"
+        },
+        {
+            "code": "HLM-017",
+            "display": "Wärmetherapie mittels Heißluft"
+        },
+        {
+            "code": "HLM-018",
+            "display": "Wärmetherapie mittels Ultraschall"
+        },
+        {
+            "code": "HLM-019",
+            "display": "Warmpackungen (z. B. Fango)"
+        },
+        {
+            "code": "HLM-020",
+            "display": "Wärmetherapie mittels Teilbäder mit Peloid./Paraf."
+        },
+        {
+            "code": "HLM-021",
+            "display": "Wärmetherapie mittels Vollbäder mit Peloid./Paraf."
+        },
+        {
+            "code": "HLM-022",
+            "display": "Kältetherapie"
+        },
+        {
+            "code": "HLM-023",
+            "display": "Kältetherapie mittels Kaltpackungen"
+        },
+        {
+            "code": "HLM-024",
+            "display": "Kältetherapie mittels Kaltgas"
+        },
+        {
+            "code": "HLM-025",
+            "display": "Kältetherapie mittels Kaltluft"
+        },
+        {
+            "code": "HLM-026",
+            "display": "Elektrotherapie"
+        },
+        {
+            "code": "HLM-027",
+            "display": "hydroelektrisches Teilbad (Stangerbad)"
+        },
+        {
+            "code": "HLM-028",
+            "display": "hydroelektrisches Vollbad (Stangerbad)"
+        },
+        {
+            "code": "HLM-029",
+            "display": "MT"
+        },
+        {
+            "code": "HLM-030",
+            "display": "Chirogymnastik"
+        },
+        {
+            "code": "HLM-031",
+            "display": "Standardisierte Heilmittelkombination"
+        },
+        {
+            "code": "HLM-032",
+            "display": "Traktion"
+        },
+        {
+            "code": "HLM-033",
+            "display": "Elektrostimulation"
+        },
+        {
+            "code": "HLM-034",
+            "display": "KG-ZNS"
+        },
+        {
+            "code": "HLM-035",
+            "display": "KG-ZNS (Bobath)"
+        },
+        {
+            "code": "HLM-036",
+            "display": "KG-ZNS (Vojta)"
+        },
+        {
+            "code": "HLM-037",
+            "display": "KG-ZNS (PNF)"
+        },
+        {
+            "code": "HLM-038",
+            "display": "KG-ZNS-Kinder"
+        },
+        {
+            "code": "HLM-039",
+            "display": "KG-ZNS-Kinder (Bobath)"
+        },
+        {
+            "code": "HLM-040",
+            "display": "KG-ZNS-Kinder (Vojta)"
+        },
+        {
+            "code": "HLM-041",
+            "display": "KG-Atemtherapie"
+        },
+        {
+            "code": "HLM-042",
+            "display": "KG-Atemtherapie Gruppe"
+        },
+        {
+            "code": "HLM-043",
+            "display": "KG-Muko"
+        },
+        {
+            "code": "HLM-044",
+            "display": "Inhalationstherapie"
+        },
+        {
+            "code": "HLM-045",
+            "display": "MLD-30"
+        },
+        {
+            "code": "HLM-046",
+            "display": "MLD-30 + anschließender Kompressionsbandagierung"
+        },
+        {
+            "code": "HLM-047",
+            "display": "MLD-45"
+        },
+        {
+            "code": "HLM-048",
+            "display": "MLD-45 + anschließender Kompressionsbandagierung"
+        },
+        {
+            "code": "HLM-049",
+            "display": "MLD-60"
+        },
+        {
+            "code": "HLM-050",
+            "display": "MLD-60 + anschließender Kompressionsbandagierung"
+        },
+        {
+            "code": "HLM-051",
+            "display": "CM"
+        },
+        {
+            "code": "HLM-052",
+            "display": "Kohlensäurebäder und Kohlensäuregasbäder (Teilbad)"
+        },
+        {
+            "code": "HLM-053",
+            "display": "Kohlensäurebäder und Kohlensäuregasbäder (Vollbad)"
+        },
+        {
+            "code": "HLM-054",
+            "display": "Hornhautabtragung"
+        },
+        {
+            "code": "HLM-055",
+            "display": "Nagelbearbeitung"
+        },
+        {
+            "code": "HLM-056",
+            "display": "Podologische Komplexbehandlung"
+        },
+        {
+            "code": "HLM-057",
+            "display": "Nagelspangenbehandlung"
+        },
+        {
+            "code": "HLM-058",
+            "display": "Stimmtherapie-30"
+        },
+        {
+            "code": "HLM-059",
+            "display": "Stimmtherapie-45"
+        },
+        {
+            "code": "HLM-060",
+            "display": "Stimmtherapie-60"
+        },
+        {
+            "code": "HLM-061",
+            "display": "Stimmtherapie-Gruppe-45"
+        },
+        {
+            "code": "HLM-062",
+            "display": "Stimmtherapie-Gruppe-90"
+        },
+        {
+            "code": "HLM-063",
+            "display": "Sprech- und Sprachtherapie-30"
+        },
+        {
+            "code": "HLM-064",
+            "display": "Sprech- und Sprachtherapie-45"
+        },
+        {
+            "code": "HLM-065",
+            "display": "Sprech- und Sprachtherapie-60"
+        },
+        {
+            "code": "HLM-066",
+            "display": "Sprech- und Sprachtherapie-Gruppe-45"
+        },
+        {
+            "code": "HLM-067",
+            "display": "Sprech- und Sprachtherapie-Gruppe-90"
+        },
+        {
+            "code": "HLM-068",
+            "display": "Sprachtherapie-30"
+        },
+        {
+            "code": "HLM-069",
+            "display": "Sprachtherapie-45"
+        },
+        {
+            "code": "HLM-070",
+            "display": "Sprachtherapie-60"
+        },
+        {
+            "code": "HLM-071",
+            "display": "Sprachtherapie-Gruppe-45"
+        },
+        {
+            "code": "HLM-072",
+            "display": "Sprachtherapie-Gruppe-90"
+        },
+        {
+            "code": "HLM-073",
+            "display": "Stimm-, Sprech- und Sprachtherapie-30"
+        },
+        {
+            "code": "HLM-074",
+            "display": "Stimm-, Sprech- und Sprachtherapie-45"
+        },
+        {
+            "code": "HLM-075",
+            "display": "Stimm-, Sprech- und Sprachtherapie-60"
+        },
+        {
+            "code": "HLM-076",
+            "display": "Stimm-, Sprech- und Sprachtherapie-Gruppe-45"
+        },
+        {
+            "code": "HLM-077",
+            "display": "Stimm-, Sprech- und Sprachtherapie-Gruppe-90"
+        },
+        {
+            "code": "HLM-078",
+            "display": "Sprechtherapie-30"
+        },
+        {
+            "code": "HLM-079",
+            "display": "Sprechtherapie-45"
+        },
+        {
+            "code": "HLM-080",
+            "display": "Sprechtherapie-60"
+        },
+        {
+            "code": "HLM-081",
+            "display": "Sprechtherapie-Gruppe-45"
+        },
+        {
+            "code": "HLM-082",
+            "display": "Sprechtherapie-Gruppe-90"
+        },
+        {
+            "code": "HLM-083",
+            "display": "Sprech- und Stimmtherapie-30"
+        },
+        {
+            "code": "HLM-084",
+            "display": "Sprech- und Stimmtherapie-45"
+        },
+        {
+            "code": "HLM-085",
+            "display": "Sprech- und Stimmtherapie-60"
+        },
+        {
+            "code": "HLM-086",
+            "display": "Schlucktherapie-30"
+        },
+        {
+            "code": "HLM-087",
+            "display": "Schlucktherapie-45"
+        },
+        {
+            "code": "HLM-088",
+            "display": "Schlucktherapie-60"
+        },
+        {
+            "code": "HLM-089",
+            "display": "Motorisch-funkt. Beh."
+        },
+        {
+            "code": "HLM-090",
+            "display": "Motorisch-funkt. Beh. mit ergoth. Schiene/n"
+        },
+        {
+            "code": "HLM-091",
+            "display": "Motorisch-funkt. Beh. Gruppe"
+        },
+        {
+            "code": "HLM-092",
+            "display": "Thermische Anwendungen"
+        },
+        {
+            "code": "HLM-093",
+            "display": "Sensomotorisch-perz. Beh."
+        },
+        {
+            "code": "HLM-094",
+            "display": "Sensomotorisch-perz. Beh. mit ergoth. Schiene/n"
+        },
+        {
+            "code": "HLM-095",
+            "display": "Sensomotorisch-perz. Beh. Gruppe"
+        },
+        {
+            "code": "HLM-096",
+            "display": "Hirnleistungstraining/neuropsych. orientierte Beh."
+        },
+        {
+            "code": "HLM-097",
+            "display": "Hirnleistungstraining Gruppe"
+        },
+        {
+            "code": "HLM-098",
+            "display": "Psychisch-funkt. Beh."
+        },
+        {
+            "code": "HLM-099",
+            "display": "Psychisch-funkt. Beh. Gruppe"
+        },
+        {
+            "code": "HLM-100",
+            "display": "Ernährungstherapie"
+        },
+        {
+            "code": "HLM-101",
+            "display": "Ernährungstherapie Gruppe"
+        }
+    ]
+}

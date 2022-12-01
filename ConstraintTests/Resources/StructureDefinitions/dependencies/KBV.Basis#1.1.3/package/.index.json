@@ -1,0 +1,686 @@
+{
+  "date": "2022-10-11T14:00:39.8028294+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "KBVCMBaseApgarScoreIdentifierGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Apgar_Score_Identifier_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseApgarScoreValueGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Apgar_Score_Value_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseBodyHeightSnomedGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Height_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseBodyWeightLoincGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Weight_Loinc_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseBodyWeightMethodSnomedGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Weight_Method_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseBodyWeightSnomedGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Weight_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseDiagnosisSeverityGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Diagnosis_Severity_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseHeadCircumferenceBodySiteSnomedGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Head_Circumference_BodySite_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseHeadCircumferenceSnomedGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Head_Circumference_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBasePractitionerFunctionGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Practitioner_Function_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCMBaseStageLifeGerman.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Stage_Life_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseApgarScoreIdentifierGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Apgar_Score_Identifier_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseApgarScoreValueGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Apgar_Score_Value_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseBodyHeightSnomedGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Height_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseBodyWeightLoincGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Weight_Loinc_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseBodyWeightMethodSnomedGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Weight_Method_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseBodyWeightSnomedGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Weight_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseDiagnosisSeverityGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Diagnosis_Severity_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseHeadCircumferenceBodySiteSnomedGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Head_Circumference_BodySite_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseHeadCircumferenceSnomedGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Head_Circumference_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseidentifiertype.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_identifier_type",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBasePractitionerFunctionGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Practitioner_Function_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVCSBaseStageLifeGerman.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Stage_Life_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVEXBaseAdditionalComment.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Additional_Comment",
+      "version": "1.1.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVEXBaseStageLife.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Stage_Life",
+      "version": "1.1.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVEXBaseTerminologyGerman.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_Base_Terminology_German",
+      "version": "1.1.3",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVNSBaseANR.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVNSBaseBSNR.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVNSBaseEBM.json",
+      "resourceType": "NamingSystem",
+      "id": null,
+      "url": null,
+      "version": null,
+      "kind": "identifier",
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVPRBaseDiagnosis.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Diagnosis",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBaseObservationApgarScore.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Apgar_Score",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBaseObservationBodyHeight.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Body_Height",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBaseObservationBodyWeight.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Body_Weight",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBaseObservationHeadCircumference.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Head_Circumference",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBaseOrganization.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Organization",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Organization",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBasePatient.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Patient",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Patient",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVPRBasePractitioner.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Practitioner",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Practitioner",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBVVSBaseApgarScoreIdentifierLoinc.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Apgar_Score_Identifier_Loinc",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseApgarScoreIdentifierSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Apgar_Score_Identifier_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseApgarScoreValue.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Apgar_Score_Value",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyHeightLoinc.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Height_Loinc",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyHeightSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Height_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyWeightLoinc.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_Loinc",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyWeightMethodSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_Method_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyWeightSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseBodyWeightUnit.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_BodyWeight_Unit",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseDiagnoseSnomedCT.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Diagnose_Snomed_CT",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBASEGemRSAnlage8.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_BASE_GemRS_Anlage_8",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseHeadCircumferenceBodySiteSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Head_Circumference_BodySite_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseHeadCircumferenceSnomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Head_Circumference_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseIHEXDSAuthorSpecialityRestricted.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_IHEXDS_AuthorSpeciality_Restricted",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBasePractitionerSpeciality.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBasePractitionerSpecialityAddendum.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Practitioner_Speciality_Addendum",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBVVSBaseStageLife.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Stage_Life",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CM_Base_Body_Temperature_Snomed_German.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Temp_Snomed_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CM_Base_Body_Temp_Unit_German.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Body_Temp_Unit_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CM_Base_Heart_Rate_Snomed_German.json",
+      "resourceType": "ConceptMap",
+      "id": null,
+      "url": "https://fhir.kbv.de/ConceptMap/KBV_CM_Base_Heart_Rate_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_Base_Body_Temperature_German.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Temp_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_Base_Body_Temp_Unit_German.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Body_Temp_Unit_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_Base_Heart_Rate_German.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_Base_Heart_Rate_German",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_PR_Base_Heart_Rate.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Heart_Rate",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_Base_Observation_Blood_Pressure_New.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Blood_Pressure",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_Base_Observation_Body_Temperature.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Body_Temperature",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_Base_Observation_Respiratory_Rate.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Respiratory_Rate",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_Base_Peripheral_Oxygen_Saturation.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_Base_Observation_Peripheral_Oxygen_Saturation",
+      "version": "1.1.3",
+      "kind": "resource",
+      "type": "Observation",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_VS_Base_Body_Temperature_Snomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Temp_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_Base_Body_Temp_Unit.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Temp_Unit",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_Base_Heart_Rate_Snomed.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_Base_Heart_Rate_Snomed",
+      "version": "1.1.3",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

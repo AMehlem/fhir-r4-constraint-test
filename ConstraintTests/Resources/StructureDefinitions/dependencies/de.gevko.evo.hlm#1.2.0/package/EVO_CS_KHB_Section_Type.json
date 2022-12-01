@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KHB_Section_Type",
+  "version": "0.9.1",
+  "name": "EVO_CS_KHB_Section_Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-07-01T13:55:41.5932084+00:00",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "CodeSystem zur Abbildung von Slices in der Section der Composition für Krankenhausbehandlung",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "KHB",
+      "display": "Krankenhausbehandlung"
+    }
+  ]
+}

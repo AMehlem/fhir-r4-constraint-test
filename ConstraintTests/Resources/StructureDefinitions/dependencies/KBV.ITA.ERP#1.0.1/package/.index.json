@@ -1,0 +1,286 @@
+{
+  "date": "2022-10-11T14:00:39.6754891+02:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "KBV_CS_ERP_Medication_Category.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_ERP_Medication_Category",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_ERP_Medication_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_ERP_Medication_Type",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_ERP_Section_Type.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_ERP_Section_Type",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_ERP_StatusCoPayment.json",
+      "resourceType": "CodeSystem",
+      "id": null,
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_ERP_StatusCoPayment",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_EX_ERP_Accident.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Accident",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_BVG.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_BVG",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_DosageFlag.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_DosageFlag",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_EmergencyServicesFee.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_EmergencyServicesFee",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_Category.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_Category",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_CompoundingInstruction.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_CompoundingInstruction",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_Ingredient_Amount.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_Ingredient_Amount",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_Ingredient_Form.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_Ingredient_Form",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_Packaging.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_Packaging",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Medication_Vaccine.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Medication_Vaccine",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_Multiple_Prescription.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_Multiple_Prescription",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_PracticeSupply_Payor.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_PracticeSupply_Payor",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_EX_ERP_StatusCoPayment.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_EX_ERP_StatusCoPayment",
+      "version": "1.0.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Composition",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Medication_Compounding.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Medication_Compounding",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Medication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Medication_FreeText.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Medication_FreeText",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Medication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Medication_Ingredient.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Medication_Ingredient",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Medication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Medication_PZN.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Medication_PZN",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "Medication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_PracticeSupply.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_PracticeSupply",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "SupplyRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_PR_ERP_Prescription.json",
+      "resourceType": "StructureDefinition",
+      "id": null,
+      "url": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Prescription",
+      "version": "1.0.1",
+      "kind": "resource",
+      "type": "MedicationRequest",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_VS_ERP_Accident_Type.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_ERP_Accident_Type",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_ERP_Medication_Category.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_ERP_Medication_Category",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_ERP_StatusCoPayment.json",
+      "resourceType": "ValueSet",
+      "id": null,
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_ERP_StatusCoPayment",
+      "version": "1.0.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

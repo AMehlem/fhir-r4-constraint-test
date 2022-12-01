@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://fhir.gevko.de/CodeSystem/EVO_CS_KB_Befoerderungsausstattung",
+  "identifier": [
+    {
+      "value": "urn:oid:1.2.276.0.76.3.1.135.8.11.13"
+    }
+  ],
+  "version": "0.9.0",
+  "name": "EVO_CS_KB_Befoerderungsausstattung",
+  "status": "active",
+  "date": "2021-04-22",
+  "publisher": "gevko GmbH",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.gevko.de"
+        }
+      ]
+    }
+  ],
+  "description": "Die Ausstattung der Beförderung.",
+  "copyright": "gevko GmbH",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "RLST",
+      "display": "Rollstuhl"
+    },
+    {
+      "code": "TST",
+      "display": "Tragestuhl"
+    },
+    {
+      "code": "LIEG",
+      "display": "Liegend"
+    }
+  ]
+}

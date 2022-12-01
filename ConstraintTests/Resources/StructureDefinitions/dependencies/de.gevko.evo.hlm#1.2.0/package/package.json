@@ -1,0 +1,18 @@
+{
+  "name": "de.gevko.evo.hlm",
+  "version": "1.2.0",
+  "description": "Umsetzung der elektronischen Heilmittelverordnung",
+  "author": "ralffranke",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "de.gematik.erezept-workflow.r4": "1.0.0",
+    "de.basisprofil.r4": "0.9.13",
+    "KBV.Basis": "1.1.3",
+    "KBV.ITA.FOR": "1.0.3",
+    "KBV.ITA.EAU": "1.0.2",
+    "KBV.ITA.ERP": "1.0.1"
+  }
+}
